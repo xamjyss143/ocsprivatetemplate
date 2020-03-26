@@ -1,7 +1,8 @@
 
 #!/bin/bash
 echo "Removing Old Theme"
-rm -rf /home/panel/html/*
+rm -rf /home/panel/html/assets
+rm -rf /home/panel/html/view
 echo "Tunnel  Template"
 cd ~
 mkdir tunnel
