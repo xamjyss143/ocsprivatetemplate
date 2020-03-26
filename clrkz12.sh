@@ -8,7 +8,7 @@ mkdir clrkz
 cd clrkz
 rm -rf *
 wget https://github.com/xamjyss143/ocsprivatetemplate/raw/master/clrkz.tar.gz && tar zxvf clrkz.tar.gz
-mv assets /home/panel/html
+mv asset /home/panel/html
 mv config /home/panel/html
 mv controller /home/panel/html
 mv file /home/panel/html
