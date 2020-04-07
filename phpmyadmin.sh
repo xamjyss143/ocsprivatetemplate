@@ -9,3 +9,5 @@ wget https://github.com/xamjyss143/ocsprivatetemplate/raw/master/phpmyadmin.tar.
 mv phpMyAdmin /home/panel/html
 
 echo "phpMyAdmin Successfully Installed"
+
+echo " Go to : http://vps-ip/phpMyAdmin" 
