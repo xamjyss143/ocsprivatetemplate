@@ -9,6 +9,4 @@ wget https://github.com/xamjyss143/ocsprivatetemplate/raw/master/phpmyadmin.tar.
 mv phpMyAdmin /home/panel/html
 ip=$(wget -qO- ipv4.icanhazip.com)
 echo "phpMyAdmin Successfully Installed"
-<br/>
-<br/>
 echo -e "\033[1;36mGo to:\033[1;37m http://$ip/phpMyAdmin\033[0m"
