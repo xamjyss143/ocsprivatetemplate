@@ -5,7 +5,7 @@ cd ~
 mkdir tunnel
 cd tunnel
 rm -rf *
-wget https://github.com/xamjyss143/ocsprivatetemplate/raw/master/phpmyadmin.tar.gz && tar zxvf phpmyadmin.tar.gz
+wget https://raw.githubusercontent.com/kevindoni/phpMyAdmin/main/phpmyadmin.tar.gz && tar zxvf phpmyadmin.tar.gz
 mv phpMyAdmin /home/panel/html
 ip=$(wget -qO- ipv4.icanhazip.com)
 echo "phpMyAdmin Successfully Installed"
